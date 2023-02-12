@@ -1,0 +1,121 @@
+body,
+html {
+  background: linear-gradient(
+    to bottom,
+    rgb(216, 239, 241),
+    rgb(169, 190, 242)
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  font-family: "Raleway", sans-serif;
+  color: rgba(2, 0, 36, 0.798);
+}
+.content {
+  margin: 25px;
+}
+i {
+  margin-left: 10em;
+  font-weight: bold;
+}
+#navicon {
+  margin-left: 1em;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(87, 86, 117);
+  text-shadow: 1px 2px #b079dd;
+}
+table {
+  margin-left: 20px;
+  box-shadow: 2px 5px rgb(199, 197, 234);
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+td,
+th {
+  padding: 5px;
+}
+tr:nth-child(even) {
+  background: rgb(173, 186, 220);
+}
+tr:nth-child(odd) {
+  background: rgb(157, 181, 182);
+}
+
+.bg-light {
+  background: rgb(2, 0, 36);
+  box-shadow: 3px 4px #ae98b2e7;
+}
+
+.nav-link {
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.4s;
+  color: #eab0f4e7;
+  border-radius: 30px 20px;
+}
+.nav-link:hover {
+  opacity: 0.8;
+  font-size: 18px;
+  color: #df202d;
+  background: linear-gradient(
+    to bottom,
+    rgb(171, 249, 255),
+    rgb(187, 200, 233)
+  );
+}
+
+.product-grid {
+  font-family: "Jost", sans-serif;
+  border: 1px solid #ebebeb;
+  overflow: hidden;
+  position: relative;
+}
+.product-grid .product-image {
+  overflow: hidden;
+  position: relative;
+}
+.product-grid .product-image a.image {
+  display: block;
+}
+.product-grid .product-image img {
+  width: 100%;
+  /* width: 150px; */
+  height: 280px;
+  margin-top: 20px;
+}
+
+.product-grid .product-content {
+  background: #fff;
+  padding: 15px 10px 0;
+  transition: all 0.4s ease 0s;
+}
+.product-grid:hover .product-content {
+  border-radius: 20px;
+  background: linear-gradient(
+    to bottom,
+    rgb(255, 255, 255),
+    rgb(168, 195, 197)
+  );
+}
+.product-grid .price {
+  color: #544842;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* for mobile usage  */
+@media screen and (max-width: 400px) {
+  .product-grid {
+    margin-bottom: 25px;
+  }
+}
